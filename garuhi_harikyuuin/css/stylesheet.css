@@ -1341,7 +1341,7 @@ article .summary-background #service-1_title div img+img {
 
 
 /* ----------mediaクエリ---------- */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     body,
     header,
     footer,
@@ -1676,3 +1676,4 @@ article .summary-background #service-1_title div img+img {
         margin-top: 0;
     }
 }
+
