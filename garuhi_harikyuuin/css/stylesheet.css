@@ -1467,7 +1467,7 @@ footer #footer-tel h2 {
     }
     /* -----footer----- */
     footer nav {
-        padding: 0.5em 150px;
+        padding: 0.5em 100px;
     }
     footer nav ul {
         display: grid;
@@ -1804,3 +1804,4 @@ footer nav {
 
     /* -----contact----- */
 }
+
