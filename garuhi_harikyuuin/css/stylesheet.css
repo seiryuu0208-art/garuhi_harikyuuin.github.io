@@ -1728,7 +1728,7 @@ footer #footer-tel h2 {
         bottom: 0;
     }
     #recruit #recruit-1 #recruit-1_main ul {
-        margin: 0 0 5.5em;
+        margin: 0 auto 5.5em;
     }
     #recruit #recruit-1 #recruit-1_main ul li {
         font-size: 14px;
@@ -1806,3 +1806,4 @@ footer nav {
 
     /* -----contact----- */
 }
+
