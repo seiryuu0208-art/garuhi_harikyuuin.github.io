@@ -1722,8 +1722,10 @@ footer #footer-tel h2 {
         background-size: 120% 100%;
     }
     #recruit #recruit-1 #recruit-1_main h2 img {
-        width: 3.2em;
+        width: 3em;
         right: -3%;
+        top: auto;
+        bottom: 0;
     }
     #recruit #recruit-1 #recruit-1_main ul {
         margin: 0 0 5.5em;
@@ -1733,7 +1735,7 @@ footer #footer-tel h2 {
         margin-bottom: 0.8em;
     }
     #recruit #recruit-1 #recruit-1_main img {
-        width: 10em;
+        width: 8em;
         height: auto;
         right: 2em;
         bottom: 1.5em;
@@ -1804,4 +1806,3 @@ footer nav {
 
     /* -----contact----- */
 }
-
