@@ -1431,7 +1431,8 @@ footer #footer-tel h2 {
         height: auto;
     }
     .contents-title-description {
-        padding: 1em;
+        padding: 1em 3em;
+        text-align: left;
     }
     /* summary */
     .summary-background {
@@ -1563,7 +1564,7 @@ footer #footer-tel h2 {
         height: auto;
     }
     #TOP-3 h3 {
-        margin: 1em;
+        text-align: left
     }
     #TOP-3 .TOP-3_card div .TOP-3_card-text {
         margin: 1em 1.5em;
@@ -1590,6 +1591,20 @@ footer #footer-tel h2 {
     #procedure-1 .btn {
         margin-top: 30px;
     }
+    /*procedure-3*/
+    #procedure-3 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    #procedure-3 img{
+        width: 100%;
+        height: auto;
+    }
+
+    #procedure-3 p {
+        margin-right: 3em;
+        margin-left: 3em;
+    }
 
     /* -----service-price----- */
     #service-price table {
@@ -1603,6 +1618,11 @@ footer #footer-tel h2 {
     #service-price-1 .service-price-1_pricing caption {
         margin-left: 10px;
     }
+    #service-price-1 .service-price-1_pricing tbody th,
+    #service-price-1 .service-price-1_pricing tbody td {
+        padding: 5px;
+        text-align: center;
+    }
     /*service-price-2*/
     #service-price-2 {
         margin-top: 4em;
@@ -1611,18 +1631,19 @@ footer #footer-tel h2 {
         margin-top: 2em;
     }
     #service-price-2 #service-price-2_pricing thead tr:nth-child(2) th {
+        padding: 5px;
         font-size: 16px;
     }
     #service-price-2 #service-price-2_pricing tbody tr td {
         font-size: 16px;
     } 
     #service-price-2 #service-price-2_insurance tbody tr th {
-        padding-left: 5px;
+        padding: 5px 0.5em;
         width: 40%;
         font-size: 16px;
     }
     #service-price-2 #service-price-2_insurance tbody tr td {
-        padding-left: 5px;
+        padding: 5px 0.5em;
     }
     #service-price-2 #service-price-2_insurance tbody tr td p small {
         font-size: 12px;
