@@ -1651,7 +1651,7 @@ footer #footer-tel h2 {
     /* -----service----- */
     /*title*/
     #service #contents .contents-title-description {
-        height: 250px;
+        height: auto;
         padding: 1em 2em;
     }
     #service #contents .contents-title-description div {
@@ -1844,4 +1844,5 @@ footer nav {
     /*recruit-2*/
 
     /* -----contact----- */
+
 }
