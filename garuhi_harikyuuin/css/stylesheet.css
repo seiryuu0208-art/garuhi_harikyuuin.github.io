@@ -1803,14 +1803,40 @@ footer #footer-tel h2 {
     }
 }
 
+/* 600px以下 */
+@media screen and (max-width: 600px) {
+/*contents*/
+    #contents .contents-title-description {
+        padding: 1em 2em;
+    }
+    .summary-main {
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+/*footer*/
+
+/*TOP*/
+    /*TOP-1*/
+    #TOP-1 #TOP-1_catchphrase #TOP-1_catchphrase-img {
+        padding: 1em 2em;
+    }
+    #TOP-1 #TOP-1_catchphrase #TOP-1_catchphrase-text {
+        margin: 0 2em;
+    }
+    #TOP-1 #TOP-1_lead #TOP-1_lead-text {
+        padding: 2em;
+    }
+
+/*procedure*/
+    #procedure-3 p {
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+}
+
 /* 480px以下 */
 @media screen and (max-width: 480px) {
-/*
-
-    /* nav */
-
-
-    /* -----contents----- */
+/* -----contents----- */
     .summary-main {
         margin-right: 2em;
         margin-left: 2em;
@@ -1820,46 +1846,4 @@ footer #footer-tel h2 {
     footer nav {
         padding: 0.5em 100px;
     }
-
-    /* -----TOP----- */
-    /*TOP-1*/
-
-    /*TOP-2*/
-
-    /*TOP-3*/
-
-    /*TOP-4*/
-
-
-    /* -----procedure----- */
-    /*procedure-1*/
-
-
-    /* -----service-price----- */
-    /*service-price-1*/
-
-    /*service-price-2*/
-
-    /*service-price-3*/
-
-    /* -----service----- */
-    /*title*/
-
-    /* -----FAQ----- */
-
-    /* -----policy----- */
-    /*policy-1,2*/
-
-    /*policy-4*/
-
-    /* -----recruit----- */
-    /*recruit-1*/
-
-    /*recruit_main*/
-
-    /*recruit-2*/
-
-    /* -----contact----- */
 }
-
-
