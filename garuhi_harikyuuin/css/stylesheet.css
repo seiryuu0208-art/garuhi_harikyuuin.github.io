@@ -1551,6 +1551,9 @@ footer #footer-tel h2 {
         width: 100%;
         height: auto;
     }
+    #TOP-3 .TOP-3_card h3 {
+        text-align: center;
+    }
     #TOP-3 .TOP-3_card div {
         flex-direction: column;
     }
@@ -1858,3 +1861,4 @@ footer #footer-tel h2 {
 
     /* -----contact----- */
 }
+
