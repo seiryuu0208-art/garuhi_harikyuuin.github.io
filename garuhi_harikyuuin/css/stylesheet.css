@@ -1418,6 +1418,9 @@ footer #footer-tel h2 {
         background: #fff;
         z-index: 999;
     }
+    #nav-media #nav-media_contact a img {
+        margin-bottom: 5px;
+    }
 
     /* -----contents----- */
     #contents {
@@ -1805,10 +1808,13 @@ footer #footer-tel h2 {
 
 
     /* -----contents----- */
-
+    .summary-main {
+        margin-right: 2em;
+        margin-left: 2em;
+    }
 
     /* -----footer----- */
-footer nav {
+    footer nav {
         padding: 0.5em 100px;
     }
 
