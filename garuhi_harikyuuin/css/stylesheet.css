@@ -1637,7 +1637,7 @@ footer #footer-tel h2 {
     } 
     #service-price-2 #service-price-2_insurance tbody tr th {
         padding: 5px 0.5em;
-        width: 40%;
+        width: 50%;
         font-size: 16px;
     }
     #service-price-2 #service-price-2_insurance tbody tr td {
@@ -1861,4 +1861,5 @@ footer #footer-tel h2 {
 
     /* -----contact----- */
 }
+
 
