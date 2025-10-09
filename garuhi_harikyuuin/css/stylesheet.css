@@ -1883,6 +1883,9 @@ footer #footer-tel h2 {
     footer nav {
         padding: 0.5em 50px;
     }
+    footer #footer-info {
+        width: 100%;
+    }
 /*TOP*/
     /*TOP-1*/
     #TOP-1 #TOP-1_lead #TOP-1_lead-text h2 span {
@@ -1892,12 +1895,22 @@ footer #footer-tel h2 {
     #TOP-2 #TOP-2_card div img:first-child {
         padding: 1.5em 1em;
     }
+    #TOP-2 #TOP-2_card div img.over {
+        right: -10%;
+    }
     #TOP-2 #TOP-2_card div p {
         margin: auto 1em;
     }
     /*TOP-3*/
     #TOP-3 .TOP-3_card div .TOP-3_card-text {
         margin: 1em;
+    }
+    /*TOP-4*/
+    #TOP-4 .TOP-4_step {
+        padding: 20px 10px;
+    }
+    #TOP-4 .TOP-4_step p {
+        font-size: 16px;
     }
 /*procedure*/
 /*service-price*/
@@ -1907,4 +1920,9 @@ footer #footer-tel h2 {
 /*recruit*/
 /*contact*/
 }
-
+@media screen and (max-width:360px) {
+    footer nav {
+        padding: 0.5em 30px;
+    }
+    
+}
