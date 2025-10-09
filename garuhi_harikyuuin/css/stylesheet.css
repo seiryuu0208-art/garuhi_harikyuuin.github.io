@@ -1884,6 +1884,10 @@ footer #footer-tel h2 {
         padding: 0.5em 50px;
     }
 /*TOP*/
+    /*TOP-1*/
+    #TOP-1 #TOP-1_lead #TOP-1_lead-text h2 span {
+        padding: 5px 0.5em 8px;
+    }
     /*TOP-2*/
     #TOP-2 #TOP-2_card div img:first-child {
         padding: 1.5em 1em;
@@ -1903,3 +1907,4 @@ footer #footer-tel h2 {
 /*recruit*/
 /*contact*/
 }
+
