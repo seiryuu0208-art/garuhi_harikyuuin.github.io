@@ -28,6 +28,9 @@ br.pc {
 br.sp {
     display: none;
 }
+br.sp_390 {
+    display: none;
+}
 br#header-title {
     display: none;
 }
@@ -206,7 +209,7 @@ header nav ul li:hover p {
 #nav-media ul li a p {
     width: 100%;
     margin-top: auto;
-    margin-bottom: 0;
+    margin-bottom: auto;
     padding: 0;
 
     font-size: 0.9em;
@@ -1394,6 +1397,9 @@ footer #footer-tel h2 {
     br.sp {
         display: inline;
     }
+    br.sp_390 {
+        display: none;
+    }
     br#header-title {
         display: none;
     }
@@ -1856,3 +1862,44 @@ footer #footer-tel h2 {
     }
 }
 
+@media screen and (max-width: 461px) {
+    footer nav {
+        padding: 0.5em 70px;
+    }
+}
+
+/* 390px以下 */
+@media screen and (max-width: 390px) {
+    br.sp_390 {
+        display: inline;
+    }
+    /*header*/
+    #nav-media ul li a img {
+        width: 1.5em;
+        height: 1.5em;
+    }
+    /*contents*/
+    /*footer*/
+    footer nav {
+        padding: 0.5em 50px;
+    }
+/*TOP*/
+    /*TOP-2*/
+    #TOP-2 #TOP-2_card div img:first-child {
+        padding: 1.5em 1em;
+    }
+    #TOP-2 #TOP-2_card div p {
+        margin: auto 1em;
+    }
+    /*TOP-3*/
+    #TOP-3 .TOP-3_card div .TOP-3_card-text {
+        margin: 1em;
+    }
+/*procedure*/
+/*service-price*/
+/*service*/
+/*FAQ*/
+/*policy*/
+/*recruit*/
+/*contact*/
+}
