@@ -438,6 +438,10 @@ footer #footer-tel img {
 footer #footer-tel h2 {
     margin: 0;
 }
+footer #footer-tel h2 a {
+    color: #fff;
+    text-decoration: none;
+}
 /* base↑ */
 
 /* ----------TOP↓---------- */
@@ -1373,9 +1377,10 @@ footer #footer-tel h2 {
     font-size: 24px;
     color: #337d98;
 }
-#contact #contact_main a p {
+#contact #contact_main p a {
     margin-bottom: 10px;
     font-size: 36px;
+    color: #337d98;
 }
 /* ----------contact↑---------- */
 
