@@ -22,6 +22,9 @@ p,div {
     margin: 0 auto;
     padding: 0;
 }
+a {
+    text-decoration: none;
+}
 br.pc {
     display: inline;
 }
@@ -974,7 +977,7 @@ footer #footer-tel h2 {
 #service-1 .service-1_table_media tbody tr th {
     text-align: center;
     width: 50%;
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1;
     padding: 0.5em 0;
     background-color: #b5dfef;
@@ -1367,14 +1370,12 @@ footer #footer-tel h2 {
     margin-top: -70px;
 }
 #contact #contact_main p {
+    font-size: 24px;
     color: #337d98;
 }
-#contact #contact_main p:first-child {
+#contact #contact_main a p {
     margin-bottom: 10px;
     font-size: 36px;
-}
-#contact #contact_main p:last-child {
-    font-size: 24px;
 }
 /* ----------contact↑---------- */
 
@@ -1679,7 +1680,9 @@ footer #footer-tel h2 {
     #service-1 .service-1_table_media{
         display: table;
     }
-
+    #service-1 .service-1_table_media caption p {
+        line-height: 1;
+    }
     #service-1 .service-1_note {
         flex-direction: column;
         gap: 0;
@@ -1867,6 +1870,10 @@ footer #footer-tel h2 {
     #service-price-2 #service-price-2_insurance tbody tr td p.small-p {
         font-size: 10px;
     }
+/*service*/
+    #service #contents .contents-title-description div h2 {
+        font-size: 1.3em;
+    }
 }
 
 @media screen and (max-width: 461px) {
@@ -1951,6 +1958,27 @@ footer #footer-tel h2 {
         font-size: 20px;
     }
 /*service*/
+    #service #contents .contents-title-description {
+        padding: 1em;
+    }
+    #service p {
+        font-size: 16px;
+    }
+    #service-1 .service-1_table_media tbody tr th {
+        font-size: 0.9em;
+    }
+    #service-1 .service-1_table_media tbody tr td {
+        font-size: 1.5rem;
+    }
+    #service-1 .service-1_table_media caption h3 {
+        text-align: center;
+    }
+    #service-1 .service-1_table_media caption p.small-p {
+        font-size: 14px;
+    }
+    #service-1 #service-1_table_media-2 thead tr th {
+        font-size: 1em;
+    }
 /*FAQ*/
 /*policy*/
 /*recruit*/
@@ -1979,4 +2007,5 @@ footer #footer-tel h2 {
     #service-price-2 #service-price-2_insurance tbody tr td p {
         font-size: 18px;
     }
+/*service*/
 }
