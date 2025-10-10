@@ -1860,6 +1860,10 @@ footer #footer-tel h2 {
     #TOP-2 #TOP-2_card div .over {
         width: 3em;
     }
+/*service-price*/
+    #service-price-2 #service-price-2_insurance tbody tr td p small {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 461px) {
@@ -1913,7 +1917,20 @@ footer #footer-tel h2 {
         font-size: 16px;
     }
 /*procedure*/
+    #procedure-1 .procedure-1_step {
+        padding: 20px 10px;
+    }
+    #procedure-1 .procedure-1_step p {
+        font-size: 16px;
+    }
 /*service-price*/
+    #service-price-1 .service-price-1_pricing caption {
+        font-size: 16px;
+    }
+    #service-price-2 p:nth-child(1):nth-child(2) {
+        font-size: 16px;
+    }
+
 /*service*/
 /*FAQ*/
 /*policy*/
@@ -1921,8 +1938,12 @@ footer #footer-tel h2 {
 /*contact*/
 }
 @media screen and (max-width:360px) {
+    /*footer*/
     footer nav {
         padding: 0.5em 30px;
+    }
+    footer #footer-main {
+        padding: 30px 40px 40px;
     }
     
 }
