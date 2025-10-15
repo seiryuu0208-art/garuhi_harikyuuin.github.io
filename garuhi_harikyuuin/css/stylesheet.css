@@ -1262,6 +1262,9 @@ footer #footer-tel h2 a {
     margin-bottom: 2rem;
     line-height: 1.6;
 }
+#policy #policy-3 p:last-child {
+    margin-bottom: 0;
+}
 /*policy-4*/
 #policy #policy-4_address {
     color: #337d98;
@@ -1513,6 +1516,7 @@ footer #footer-tel h2 a {
     }
     footer #footer-tel {
         margin: 0 auto;
+        padding: 10px 0;
     }
 
     /* -----TOP----- */
@@ -1748,6 +1752,9 @@ footer #footer-tel h2 a {
     #policy .policy_profile .policy_profile-1 {
         padding: 0 2em;
     }
+    #policy .policy_profile .policy_profile-1 p {
+        line-height: normal;
+    }
     #policy .policy_profile .policy_profile-2 {
         padding: 0 1em;
     }
@@ -1756,7 +1763,7 @@ footer #footer-tel h2 a {
     }
     /*policy-4*/
     #policy #policy-4 iframe {
-        height: 20em;
+        height: 466.6px;
     }
 
     /* -----recruit----- */
@@ -1846,6 +1853,14 @@ footer #footer-tel h2 a {
         margin-right: 2em;
         margin-left: 2em;
     }
+/*policy-4*/
+    #policy #policy-4 iframe {
+        height: 373.3px;
+    }
+/*recruit*/
+    #recruit #recruit-1 #recruit-1_main p{
+        margin: 0 0;
+    }
 }
 
 /* 480px以下 */
@@ -1879,11 +1894,19 @@ footer #footer-tel h2 a {
     #service #contents .contents-title-description div h2 {
         font-size: 1.3em;
     }
+/*policy-4*/
+    #policy #policy-4 iframe {
+        height: 288.4px;
+    }
 }
 
 @media screen and (max-width: 461px) {
     footer nav {
         padding: 0.5em 70px;
+    }
+/*policy-4*/
+    #policy #policy-4 iframe {
+        height: 275px;
     }
 }
 
@@ -1985,9 +2008,46 @@ footer #footer-tel h2 a {
         font-size: 1em;
     }
 /*FAQ*/
+    #FAQ details summary {
+        margin-inline-start: 0.5em;
+    }
+    #FAQ details[open] div.answer {
+        margin-inline-start: 0.5em;
+        margin-inline-end: 0.5em;
+    }
 /*policy*/
+    #policy .policy_profile {
+        padding: 1em 0;
+    }
+    #policy .policy_profile .policy_profile-1 {
+        padding: 0 1em;
+    }
+    #policy .policy_profile .policy_profile-2 div ul li {
+        padding: 3px 0;
+    }
+    #policy .policy_profile .policy_profile-2 div ul li br.sp {
+        display: none;
+    }
+    #policy #policy-4 iframe {
+        height: 224.8px;
+    }
 /*recruit*/
+    #recruit #recruit-1 #recruit-1_main h2 img {
+        width: 2.5em;
+    }
+    #recruit #recruit-1 #recruit-1_main ul {
+        padding-inline-start: 1em;
+    }
+    #recruit #recruit-2 {
+        font-size: 1em;
+    }
 /*contact*/
+    #contact #contact_main p a {
+        font-size: 1.4em;
+    }
+    #contact #contact_main p {
+        font-size: 1.3em;
+    }
 }
 @media screen and (max-width:360px) {
     /*footer*/
@@ -2013,4 +2073,18 @@ footer #footer-tel h2 a {
         font-size: 18px;
     }
 /*service*/
+/*policy-4*/
+    #policy #policy-4 iframe {
+        height: 203.6px;
+    }
+    #policy #policy-4_address p {
+        font-size: 1em;
+    }
+/*contact*/
+    #contact #contact_main p a {
+        font-size: 1.4em;
+    }
+    #contact #contact_main p {
+        font-size: 1.1em;
+    }
 }
