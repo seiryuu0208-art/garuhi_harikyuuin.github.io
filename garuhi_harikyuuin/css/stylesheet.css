@@ -1934,6 +1934,15 @@ footer #footer-tel h2 a {
     }
 /*TOP*/
     /*TOP-1*/
+    #TOP-1 #TOP-1_catchphrase #TOP-1_catchphrase-img {
+        padding: 1em;
+    }
+    #TOP-1 #TOP-1_catchphrase #TOP-1_catchphrase-text {
+        margin: 0 1em;
+    }
+    #TOP-1 #TOP-1_lead #TOP-1_lead-text {
+        padding: 2em 1em;
+    }
     #TOP-1 #TOP-1_lead #TOP-1_lead-text h2 span {
         padding: 5px 0.5em 8px;
     }
@@ -1964,6 +1973,10 @@ footer #footer-tel h2 a {
     }
     #procedure-1 .procedure-1_step p {
         font-size: 16px;
+    }
+    #procedure-3 p {
+        margin-right: 1em;
+        margin-left: 1em;
     }
 /*service-price*/
     #service-price-1 .service-price-1_pricing caption {
@@ -2092,4 +2105,3 @@ footer #footer-tel h2 a {
         font-size: 1.1em;
     }
 }
-
