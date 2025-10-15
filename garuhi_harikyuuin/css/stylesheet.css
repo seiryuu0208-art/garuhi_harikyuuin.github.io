@@ -1921,6 +1921,10 @@ footer #footer-tel h2 a {
         height: 1.5em;
     }
     /*contents*/
+    .summary-main {
+        margin-right: 1em;
+        margin-left: 1em;
+    }
     /*footer*/
     footer nav {
         padding: 0.5em 50px;
@@ -2088,3 +2092,4 @@ footer #footer-tel h2 a {
         font-size: 1.1em;
     }
 }
+
