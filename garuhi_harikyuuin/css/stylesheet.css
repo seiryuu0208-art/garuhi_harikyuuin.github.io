@@ -1248,7 +1248,7 @@ footer #footer-tel h2 a {
 /*policy-3*/
 #policy #policy-3 {
     margin-bottom: 2em;
-    padding: 1em;
+    padding: 2em;
     text-align: left;
     background-color: #fff;
     border-radius: 1rem;
@@ -2045,6 +2045,9 @@ footer #footer-tel h2 a {
     #policy .policy_profile .policy_profile-2 div ul li br.sp {
         display: none;
     }
+    #policy #policy-3 {
+        padding: 1em;
+    }
     #policy #policy-4 iframe {
         height: 224.8px;
     }
@@ -2090,7 +2093,7 @@ footer #footer-tel h2 a {
         font-size: 18px;
     }
 /*service*/
-/*policy-4*/
+/*policy*/
     #policy #policy-4 iframe {
         height: 203.6px;
     }
